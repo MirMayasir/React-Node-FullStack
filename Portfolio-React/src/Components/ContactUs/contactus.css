@@ -1,0 +1,69 @@
+.contact-title {
+    margin-left: 20%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5% 10% 15% 10%;
+}
+
+.contact-name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.contact-name input {
+    width: 80%;
+    height: 50%;
+}
+
+.message-section {
+    margin-top: 15%;
+}
+
+.button button {
+    width: 110%;
+    height: 145%;
+    margin-top: 20%;
+    border-radius: 50%;
+    background-color: yellowgreen;
+
+}
+
+.message input {
+
+    height: 70%;
+}
+
+@media (max-width: 600px) {
+
+    #contact {
+        flex-direction: column;
+    }
+
+    .contact-name {
+        flex-direction: column;
+    }
+
+    .contact-name input {
+        width: 100%;
+        height: 100%;
+    }
+
+    .message-section {
+        margin-top: 5%;
+    }
+
+    .button button {
+        width: 50%;
+        border-radius: 1%;
+        background-color: yellowgreen;
+        margin-top: 10%;
+        margin-left: 23%;
+
+    }
+
+}

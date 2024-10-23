@@ -1,0 +1,45 @@
+#experience {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .experience-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-internship {
+    margin-bottom: 20px;
+  }
+  
+  .key-responsibilities {
+    margin-bottom: 20px;
+  }
+  
+  .skills-used {
+    margin-bottom: 20px;
+  }
+  
+  .what-i-learned {
+    margin-bottom: 20px;
+  }
+
+  .exp-title{
+    text-align: center;
+  }
+  
+  h2, h3, h4 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }

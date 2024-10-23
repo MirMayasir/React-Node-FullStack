@@ -1,0 +1,149 @@
+#qualification{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0% 17% 0% 21%;
+    /* text-align: center; */
+}
+
+.qualification-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+
+} 
+
+.qualification-details .date{
+    margin-top: 35%;
+}
+.degree{
+    margin-left: 8%;
+}
+
+.degree-details{
+    margin-left: 17%;
+} 
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 17% 0% 21%;
+
+}
+
+#skills span{
+    font-size: 70%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skill-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Languages-details{
+    margin-left: -27%
+}
+
+.Languages h3{
+    margin-left: -108%;
+}
+
+.development-details{
+    margin-left: -22%;
+}
+
+.development h3{
+    margin-left: -66%;
+}
+
+.Curriculum-details{
+    margin-left: -2%;
+}
+
+.Curriculum h3{
+    margin-left: -10%;
+}
+
+.Libraries-details{
+    margin-left: -47%;
+}
+
+.Libraries h3{
+    margin-left: -211%;
+}
+
+#github{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0% 17% 0% 5%;
+}
+
+.github-link{
+    margin-top: 3%;
+}
+
+.github-link a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1000px) {
+   .qualification-details{
+    flex-direction: column;
+    justify-content: left;
+   }
+
+    .skill-section{
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 14%;
+    }
+
+    .degree{
+        margin: 0;
+        padding: 0;
+    }
+
+    .skill-section h3{
+        margin: 0;
+        padding: 0;
+    }
+
+    .degree-details{
+        margin: 0;
+        padding: 0;
+    }
+
+    .Languages-details{
+        margin: 0;
+        padding: 0;
+    }
+
+    .development-details{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .Curriculum-details{
+        margin: 0;
+        padding: 0;
+    }
+
+    .Libraries-details{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #github{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
